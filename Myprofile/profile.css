@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 32);
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+ 
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+    background-color: rgb(10, 10, 68);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 22px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(126, 126, 221);
+    font-size: 1.04rem;
+    border-bottom: 2px purple solid;
+
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+
+    font-size: 2.5rem;
+    width: 34px;
+
+}
+
+.rightSection {
+
+    width: 34px;
+}
+
+.rightSection img {
+    width: 80%;
+
+}
+
+.purple {
+
+    color: rgb(114, 44, 180);
+}
+
+#element {
+    color: rgb(114, 44, 180);
+}
+
+main hr {
+    width: 95vw;
+    margin: 0 auto;
+    height: 1.2px;
+    background-color: rgb(114, 44, 180);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto 150px;
+}
+
+.secondSection .grey {
+    margin: 15px 0;
+    color: gray;
+}
+.secondSection .box{
+    width:51vw ;  
+    margin: 30px auto;
+    height: 1.2px;
+    background-color: rgb(156, 146, 166);
+    display: flex;
+    margin: 31px 191px;
+   
+}
+.secondSection .vertical{
+    height:90px;
+    width: 1px;
+    background-color: rgb(197, 180, 180);
+    margin: 0 95px;
+}
+.secondSection .vertical .skill{
+    position: relative;
+    bottom: 20px;
+    bottom: -90px;
+    left: -22px;
+}
+
+.contact{
+    background-color: rgb(0, 0, 32);
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.thirdSection .grey{
+    margin: 15px 0;
+    color: gray;
+}
+.cont-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    position: relative;
+    height: 30vh;
+}
+.cont-icons .phone-icons i{
+    position: absolute;
+    top: -40px;
+    left: 155px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.cont-icons .email-icons i{
+    position: absolute;
+    top: -40px;
+    right: 620px;
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+.cont-icons .insta-icons i{
+    position: absolute;
+    top: -40px;
+    right: 200px;
+    font-size: 40px;
+    margin-top: 50px;
+    
+
+}
+.cont-icons .insta-icons a{
+    text-decoration: none;
+    color: white;
+}
+.fourthSection {
+    max-width: 80vw;
+    margin: auto 150px;
+}
+.fourthSection .grey {
+    margin: 15px 0;
+    color: gray;
+}
+.fourthSection .box{
+    width:65vw ;  
+    margin: 30px auto;
+    height: 1.2px;
+    background-color: rgb(156, 146, 166);
+    display: flex;
+    margin: 84px 98px;
+    justify-content: space-around;
+}
+.fourthSection .vertical{
+    height:90px;
+    width: 1px;
+    background-color: rgb(197, 180, 180);
+    margin: 0 108px;
+}
+
+.fourthSection .vertical .project{
+    width: 400px;
+    position: relative;
+    bottom: 20px;
+    bottom: -90px;
+    left: -42px;
+}
+
+.aboutSection{
+    max-width: 80vw;
+    margin: auto 150px;
+    display:flex;
+     margin-top: 40px;
+     flex-direction: column;
+     
+}
+.info{
+    margin-top: 30px;
+}
+.info h2{
+    color:rgb(114, 44, 180); 
+    margin-bottom: 15px;  
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+     width: 122px;
+     height: 40px;
+  }
+
+  .cont-btn {
+    background-color:rgb(114, 44, 180);   
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;  
+  }
+  
+ 
+  .cont-btn:hover {
+    background-color: rgb(75, 44, 103); 
+  }
+  .cont-btn a{
+    text-decoration: none;
+    color: white;
+  }
